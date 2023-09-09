@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b1b1b;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes TranslateY {
+  0%, 100% {
+    transform: translateY(0)
+  }
+
+  50% {
+    transform: translateY(-30px)
+  }
+}
+
+.animation-translate {
+  animation: TranslateY 2s linear infinite
+}

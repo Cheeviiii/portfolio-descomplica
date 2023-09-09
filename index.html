@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site basico</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="fixed-top text-white">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid box py-5">
+      <img
+        class="animation-translate mt-5 img-fluid"
+        src="./assets/img/luffy.png"
+        alt="Luffy"
+      />
+
+      <h1>Hi, i'm Cheevi</h1>
+    </section>
+
+    <section id="projetos" class="py-5">
+      <div class="container">
+        <h1 class="text-center py-3">Projetos</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-dark mb-4">
+              <img
+              height="350px"
+                src="./assets/img/projeto1.png"
+                class="card-img-top"
+                alt="Projeto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-white">Projeto 1</h5>
+                <p class="card-text text-white">Gerador de senha</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-dark mb-4">
+              <img
+              height="350px"
+                src="./assets/img/projeto2.png"
+                class="card-img-top"
+                alt="Projeto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-white">Projeto 2</h5>
+                <p class="card-text text-white">Controle financeiro</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-dark mb-4">
+              <img
+              height="350px"
+                src="./assets/img/projeto3.png"
+                class="card-img-top"
+                alt="Projeto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-white">Projeto 4</h5>
+                <p class="card-text text-white">Lista de tarefas</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-5">
+      <div class="container-fluid">
+        <h2 class="text-center">Contato</h2>
+        <div class="w-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="text-center py-2">
+      <p>&copy; 2023 - Descomplica</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
